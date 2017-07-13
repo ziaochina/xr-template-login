@@ -2,7 +2,11 @@ import {fetch} from 'xr-utils'
 
 var _options = {
 	loginApi : (user, password) => {
-		return fetch.test('','',{result:true, value: true})
+		return fetch.post('/v1/user/login',{mobile:user, password })
+	},
+	rediectInfo: {
+		appName: 'portal',
+		appParams: {}
 	}
 }
 

@@ -14,12 +14,15 @@ class action {
     }
 
     login = async () =>{
+        const cfg = config.getCurrent()
         const user = this.metaAction.gf('data.form.user')
         const password = this.metaAction.gf('data.form.password')
 
-        const ret = await config.getCurrent().loginApi(user, password)
+        const ret = await cfg.loginApi(user, password)
+
         if(ret.result && ret.value){
-            this.metaAction.toast('success','ok')
+            if( this.component.onRedirect && cfg.rediectInfo)
+                && this.component.onRedirect(cfg.rediectInfo.appName, cfg.rediectInfo.appParams)
         }
         else{
             this.metaAction.toast('error','error')
