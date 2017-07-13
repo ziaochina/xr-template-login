@@ -1,8 +1,8 @@
 {
   "_from": "xr-template-login",
-  "_id": "xr-template-login@1.0.3",
+  "_id": "xr-template-login@1.0.4",
   "_inBundle": false,
-  "_integrity": "sha512-Bso/QsoN87xCp9lEagjg5Py6EhfYf8NNpFpfDfEBQhSJkinhrB8A9OB0PxhxUxqOrXyJxWEUO3Ku5GP2tW3/QQ==",
+  "_integrity": "sha512-ACiyFvMvnUN6C4oWMoot12pVb/Kd+gwZwrTxthgxvlzg96nc5tit76id0PPAsTweB1SBEO2wdhTUgeWCxdhvoA==",
   "_location": "/xr-template-login",
   "_phantomChildren": {},
   "_requested": {
@@ -19,8 +19,8 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/xr-template-login/-/xr-template-login-1.0.3.tgz",
-  "_shasum": "ef45395e758098245a629524a3e16fa328329bfb",
+  "_resolved": "https://registry.npmjs.org/xr-template-login/-/xr-template-login-1.0.4.tgz",
+  "_shasum": "f11a6eda208ae93763b924d065bdf42f1f2f942e",
   "_spec": "xr-template-login",
   "_where": "/home/zlj/my/github/self/xr-template-login/master/example",
   "author": "",
@@ -42,5 +42,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
