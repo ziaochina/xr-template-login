@@ -1,0 +1,46 @@
+{
+  "_from": "xr-template-login",
+  "_id": "xr-template-login@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-oPszTNGXaA/DTpTWAy6miZqqCxu/2+qsKchiwNBm2jKMsOnFKNH78I7IH8m/svVzJ/0epjixk6Z71P1pcXl1ng==",
+  "_location": "/xr-template-login",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "xr-template-login",
+    "name": "xr-template-login",
+    "escapedName": "xr-template-login",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/xr-template-login/-/xr-template-login-1.0.0.tgz",
+  "_shasum": "eded2ae21284f2a0d1a726d361100e45d9e14660",
+  "_spec": "xr-template-login",
+  "_where": "/home/zlj/my/github/self/xr-template-login/master/example",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ziaochina/xr-template-login/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "xr-template-login",
+  "homepage": "https://github.com/ziaochina/xr-template-login#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "xr-template-login",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziaochina/xr-template-login.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
