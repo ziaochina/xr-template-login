@@ -21,7 +21,7 @@ class action {
         const ret = await config.getCurrent().loginApi(user, password)
         if(ret.result && ret.value){
             if( this.component.props.onRedirect && cfg.rediectInfo)
-                this.component.props.onRedirect(cfg.rediectInfo)
+                && this.component.props.onRedirect(cfg.rediectInfo)
         }
         else{
             this.metaAction.toast('error','error')
