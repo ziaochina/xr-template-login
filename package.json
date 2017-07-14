@@ -1,6 +1,6 @@
 {
   "name": "xr-template-login",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "xr-template-login",
   "main": "index.js",
   "scripts": {
