@@ -13,6 +13,8 @@ class action {
         injections.reduce('init')
     }
 
+    getLogo = () => config.getCurrent().logo
+
     login = async () =>{
         const cfg = config.getCurrent()
         const user = this.metaAction.gf('data.form.user')

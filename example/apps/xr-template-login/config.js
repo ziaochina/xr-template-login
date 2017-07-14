@@ -1,4 +1,5 @@
 import {fetch} from 'xr-utils'
+import logo from './img/logo.png'
 
 var _options = {
 	loginApi : (user, password) => {
@@ -14,7 +15,8 @@ var _options = {
 	rediectInfo: {
 		appName: 'portal',
 		appParams: {}
-	}
+	},
+	logo:logo
 }
 
 function config(options) {
